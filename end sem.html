@@ -1,0 +1,145 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Admission Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h2>Student Admission Form</h2>
+    <p>Please fill in the details below</p>
+
+    <form>
+        <h3>Student Information</h3>
+
+        <div class="form-grid">
+            <div class="form-group">
+                <label>Student Name</label>
+                <input type="text" placeholder="Enter full name" required>
+            </div>
+
+            <div class="form-group">
+                <label>Date of Birth</label>
+                <input type="date" required>
+            </div>
+
+            <div class="form-group">
+                <label>Gender</label>
+                <select required>
+                    <option value="">Select Gender</option>
+                    <option>Male</option>
+                    <option>Female</option>
+                    <option>Other</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Blood Group</label>
+                <select>
+                    <option value="">Select Blood Group</option>
+                    <option>A+</option>
+                    <option>A-</option>
+                    <option>B+</option>
+                    <option>B-</option>
+                    <option>O+</option>
+                    <option>O-</option>
+                    <option>AB+</option>
+                    <option>AB-</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Email Address</label>
+                <input type="email" placeholder="Enter email">
+            </div>
+
+            <div class="form-group">
+                <label>Mobile Number</label>
+                <input type="tel" placeholder="Enter mobile number" required>
+            </div>
+
+            <div class="form-group full">
+                <label>Address</label>
+                <textarea placeholder="Enter your address"></textarea>
+            </div>
+        </div>
+
+        <h3>Parent Information</h3>
+
+        <div class="form-grid">
+            <div class="form-group">
+                <label>Father's Name</label>
+                <input type="text" placeholder="Father's name">
+            </div>
+
+            <div class="form-group">
+                <label>Mother's Name</label>
+                <input type="text" placeholder="Mother's name">
+            </div>
+
+            <div class="form-group">
+                <label>Parent Contact Number</label>
+                <input type="tel" placeholder="Contact number">
+            </div>
+
+            <div class="form-group">
+                <label>Occupation</label>
+                <input type="text" placeholder="Parent occupation">
+            </div>
+        </div>
+
+        <h3>Academic Information</h3>
+
+        <div class="form-grid">
+            <div class="form-group">
+                <label>Applying for Class</label>
+                <select required>
+                    <option value="">Select Class</option>
+                    <option>1st Class</option>
+                    <option>2nd Class</option>
+                    <option>3rd Class</option>
+                    <option>4th Class</option>
+                    <option>5th Class</option>
+                    <option>6th Class</option>
+                    <option>7th Class</option>
+                    <option>8th Class</option>
+                    <option>9th Class</option>
+                    <option>10th Class</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label>Previous School</label>
+                <input type="text" placeholder="Previous school name">
+            </div>
+
+            <div class="form-group">
+                <label>Previous Class</label>
+                <input type="text" placeholder="Previous class">
+            </div>
+
+            <div class="form-group">
+                <label>Academic Year</label>
+                <input type="text" placeholder="2026-2027">
+            </div>
+
+            <div class="form-group full">
+                <label>Upload Student Photo</label>
+                <input type="file" accept="image/*">
+            </div>
+        </div>
+
+        <div class="buttons">
+            <button type="submit">Submit Application</button>
+            <button type="reset" class="reset">Reset Form</button>
+        </div>
+
+    </form>
+</div>
+
+</body>
+</html>
